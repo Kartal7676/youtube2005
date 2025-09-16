@@ -1,0 +1,83 @@
+/* Genel sayfa ayarları */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Menü konteyneri: mavi arka plan */
+.menu-container {
+  background-color: #0077cc; /* mavi arka plan */
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start; /* Linkleri sola yasla */
+  align-items: center;         /* Yükseklik hizası */
+  gap: 20px;                   /* Linkler arası boşluk */
+}
+
+/* İlk 5 link: resmin üstünde yatay */
+.top-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.top-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+
+.top-menu a:hover {
+  background-color: #005fa3;
+  border-radius: 4px;
+}
+
+/* Sağ üst linkler: signup, log in, help */
+.top-right-links {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.top-right-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-right-links a:hover {
+  color: #e0e0e0;
+}
+
+/* Header ve resim */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Arama alanı */
+.search-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#text {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-btn {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
